@@ -91,6 +91,9 @@
   background: #666666;
   box-shadow: 0 0 0.5em 0 rgba(105, 105, 105, 0.4);
 }
+.h5p-course-presentation.h5p-fullscreen .h5p-box-wrapper {
+  margin: 0.1em 0;
+}
 
 /* Disable fullscreen buttons inside Course Presentation when it is in full screen */
 .h5p-course-presentation.h5p-fullscreen video .controlBar > .fullscreenButton,
@@ -652,6 +655,7 @@ border-collapse: collapse;
 }
 
 .h5p-course-presentation .h5p-element .h5p-element-inner:not(.h5p-interactive-video) {
+  height: 100%;
   overflow: hidden;
   overflow-y: auto;
   background: transparent;
